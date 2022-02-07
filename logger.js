@@ -1,0 +1,7 @@
+const names = require('./4names')
+const sayHi = require('./5-utils')
+const data = require('./arrayobject')
+require('./mindgrenade')
+sayHi('susan')
+sayHi(names.john)
+sayHi(names.peter)
